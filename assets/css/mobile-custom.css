@@ -1,0 +1,137 @@
+/* Custom Responsive Styles for Mobile */
+
+/* Breakpoint for Tablets and below */
+@media screen and (max-width: 991.98px) {
+    .title-banner {
+        font-size: 42px !important;
+        line-height: 52px !important;
+    }
+    
+    .desc-banner {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+}
+
+/* Breakpoint for Phones */
+@media screen and (max-width: 767.98px) {
+    /* Hero Banner */
+    .box-banner {
+        padding-top: 60px !important;
+        padding-bottom: 250px !important;
+        text-align: center;
+    }
+    
+    .title-banner {
+        font-size: 36px !important;
+        line-height: 46px !important;
+    }
+    
+    .desc-banner {
+        max-width: 100% !important;
+        margin-bottom: 30px !important;
+    }
+    
+    .box-banner .register-btn, 
+    .box-banner .btn-border-white {
+        display: block !important;
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-bottom: 15px !important;
+    }
+
+    /* Why Alliance Section */
+    .why .container.w-75 {
+        width: 100% !important;
+    }
+    
+    .why .mx-5.px-5 {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    /* Partners Showcase */
+    .partner-showcase__item {
+        flex-direction: column !important;
+        text-align: center;
+        gap: 20px !important;
+    }
+    
+    .partner-showcase__logo {
+        width: 200px !important;
+        margin: 0 auto;
+    }
+    
+    .partner-showcase__arrow {
+        transform: rotate(90deg);
+        margin: 10px 0 !important;
+    }
+    
+    .partner-showcase__description {
+        font-size: 18px !important;
+    }
+
+    /* Flow Steps */
+    .flow-steps {
+        gap: 20px !important;
+    }
+    
+    .flow-steps__label {
+        font-size: 16px !important;
+    }
+
+    /* Process Timeline */
+    .process-timeline {
+        padding: 20px 10px !important;
+    }
+    
+    .process-timeline__content {
+        max-width: 100% !important;
+    }
+    
+    .process-timeline__title {
+        font-size: 18px !important;
+    }
+    
+    .process-timeline__text {
+        font-size: 16px !important;
+    }
+
+    /* Formulario */
+    .formulario-container {
+        padding: 20px !important;
+    }
+    
+    .form-row {
+        flex-direction: column;
+    }
+    
+    .checkbox-group {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* Ecosystem Section */
+    .two-columns {
+        gap: 20px !important;
+    }
+    
+    .column p {
+        font-size: 16px !important;
+        text-align: left !important;
+    }
+}
+
+/* Extra Small Devices */
+@media screen and (max-width: 575.98px) {
+    .title-banner {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+    
+    .heading-3xl {
+        font-size: 28px !important;
+        line-height: 38px !important;
+    }
+}
