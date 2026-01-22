@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>ECOsistema-RalkTech</title>
+    <!-- Favicon icon-->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/template/favicon.svg" />
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/aos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/fonts/bootstrap-icons/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/fonts/boxicons/boxicons.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+
+<body>
+    <!-- prettier-ignore -->
+    <!--Preloader-->
+    <div id="preloader">
+        <div id="loader" class="loader">
+            <div class="loader-container">
+                <div class="loader-icon"><img src="assets/imgs/template/raltech_logo.svg" alt="Preloader"></div>
+            </div>
+        </div>
+    </div>
+    <!--Preloader-end -->
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
+            <div class="container px-3">
+                <a class="navbar-brand pe-4" href="index.html"><img src="assets/imgs/template/raltech_logo.svg"
+                        alt /></a>
+
+
+                <div class="d-flex align-items-center gap-1">
+                    <a href="javascript:void(0)" class="btn-open-search">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_4249_3239)">
+                                <path
+                                    d="M9.96863 0.916016C4.98038 0.916016 0.916992 4.97801 0.916992 9.96458C0.916992 14.9511 4.98038 19.021 9.96863 19.021C12.0993 19.021 14.0588 18.2746 15.6075 17.0353L19.3778 20.8024C19.5681 20.9847 19.8222 21.0853 20.0858 21.0826C20.3494 21.0799 20.6014 20.9742 20.7879 20.788C20.9744 20.6018 21.0805 20.3501 21.0836 20.0866C21.0867 19.8232 20.9864 19.569 20.8043 19.3785L17.0339 15.6094C18.2747 14.0589 19.0222 12.0969 19.0222 9.96458C19.0222 4.97801 14.9569 0.916016 9.96863 0.916016ZM9.96863 2.92727C13.8696 2.92727 17.0083 6.06498 17.0083 9.96458C17.0083 13.8642 13.8696 17.0098 9.96863 17.0098C6.06769 17.0098 2.9289 13.8642 2.9289 9.96458C2.9289 6.06498 6.06769 2.92727 9.96863 2.92727Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_4249_3239">
+                                    <rect width="22" height="22" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="javascript:void(0)"
+                        class="menu-tigger btn-navbar rounded-circle px-2 ms-4 d-flex align-items-center justify-content-center btn-menu">
+                        <svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="12" x2="30" y2="12" stroke="white" stroke-width="3" />
+                            <path d="M5 22H30" stroke="white" stroke-width="3" />
+                            <path d="M10 2H30" stroke="white" stroke-width="3" />
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+        <!-- offCanvas-menu -->
+        <div class="offCanvas__info">
+            <div class="offCanvas__close-icon menu-close">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <div class="offCanvas__logo mb-20">
+                <a href="index.html"><img src="assets/imgs/template/raltech_logo.svg" alt="Logo" /></a>
+            </div>
+            <div class="offCanvas__side-info mb-30">
+                <ul class="navbar-nav navbar-nav-mobile">
+                    <li class="nav-item dropdown py-2">
+                        <a class="nav-link fw-medium" href="index.html" role="button"><b>Inicio</b></a>
+                    </li>
+                    <li class="nav-item dropdown py-2">
+                        <a class="nav-link fw-medium" href="#why" role="button"><b>¿Porque la alianza?</b></a>
+                    </li>
+                    <li class="nav-item dropdown py-2">
+                        <a class="nav-link fw-medium" href="#alliance" role="button"><b>Aliados</b></a>
+                    </li>
+                    <li class="nav-item dropdown py-2">
+                        <a class="nav-link fw-medium" href="#route" role="button"><b>Ruta de la Transformacion</b></a>
+                    </li>
+                    <li class="nav-item dropdown py-2">
+                        <a class="nav-link fw-medium" href="#form" role="button"><b>Formulario</b></a>
+                    </li>
+                    <li class="nav-item dropdown py-2">
+                        <a class="nav-link fw-medium" href="#ecosistem" role="button"><b>Ecosistema</b></a>
+                    </li>
+                    <li class="nav-item dropdown py-2">
+                        <a class="nav-link fw-medium" href="#contact" role="button"><b>Contacto</b></a>
+                    </li>
+
+
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="offCanvas__overly"></div>
+
+    </header>
+
+    <main>
+        <!-- prettier-ignore -->
+        <!--Home 1 Section 1-->
+        <section class="position-relative overflow-hidden box-banner">
+
+            <div class="container" data-aos="fade-up">
+                <div class="banner img-custom-anim-left">
+
+                    <h1 class="title-banner" data-aos="fade-up">
+                        La Escudería <br class="d-none d-lg-block" />
+                        Que Tu Negocio Necesita
+                    </h1>
+                    <p class="paragraph-18-fitree primary-50 desc-banner" data-aos="fade-up">Es Un Modelo Colaborativo
+                        Diseñado Para Acelerar La Transformación Digital De Las PyMEs <br> Mediante La Integración De
+                        Aliados, Tecnología, Metodologías y Procesos.</p>
+                    <a href="#" class="btn register-btn mb-3" data-aos="fade-up">
+                        Registrate
+                        <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.3333 12C11.3333 11.364 11.8525 10.4143 12.3781 9.61714C13.0539 8.58857 13.8614 7.69114 14.7872 7.00629C15.4813 6.49286 16.3228 6 17 6M17 6C16.3228 6 15.4806 5.50714 14.7872 4.99371C13.8614 4.308 13.0539 3.41057 12.3781 2.38371C11.8525 1.58571 11.3333 0.634286 11.3333 -2.47698e-07M17 6L2.62268e-07 6L17 6Z"
+                                fill="" />
+                            <path
+                                d="M11.3333 12C11.3333 11.364 11.8525 10.4143 12.3781 9.61714C13.0539 8.58857 13.8614 7.69114 14.7872 7.00629C15.4813 6.49286 16.3228 6 17 6M17 6C16.3228 6 15.4806 5.50714 14.7872 4.99371C13.8614 4.308 13.0539 3.41057 12.3781 2.38371C11.8525 1.58571 11.3333 0.634285 11.3333 -3.66907e-07M17 6L7.39105e-07 6"
+                                stroke="" stroke-width="1.5" />
+                        </svg>
+                    </a>
+                    <span class="mr-20 d-none d-sm-inline-block mb-3"></span>
+                    <a href="#" class="btn btn-border-white mb-3" data-aos="fade-up">
+                        Contáctanos
+                        <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.3333 12C11.3333 11.364 11.8525 10.4143 12.3781 9.61714C13.0539 8.58857 13.8614 7.69114 14.7872 7.00629C15.4813 6.49286 16.3228 6 17 6M17 6C16.3228 6 15.4806 5.50714 14.7872 4.99371C13.8614 4.308 13.0539 3.41057 12.3781 2.38371C11.8525 1.58571 11.3333 0.634286 11.3333 -2.47698e-07M17 6L2.62268e-07 6L17 6Z"
+                                fill="" />
+                            <path
+                                d="M11.3333 12C11.3333 11.364 11.8525 10.4143 12.3781 9.61714C13.0539 8.58857 13.8614 7.69114 14.7872 7.00629C15.4813 6.49286 16.3228 6 17 6M17 6C16.3228 6 15.4806 5.50714 14.7872 4.99371C13.8614 4.308 13.0539 3.41057 12.3781 2.38371C11.8525 1.58571 11.3333 0.634285 11.3333 -3.66907e-07M17 6L7.39105e-07 6"
+                                stroke="" stroke-width="1.5" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--Home 1 Section 2-->
+        <section class="position-relative overflow-hidden box-agency why" id="why">
+            <div class="w-75 container justify-content-center">
+                <hr style="width: 50px; height: 3px; border: none; background-color: #2b71ff; margin: 0 auto 30px;">
+                <div class="container d-flex justify-content-center">
+
+                    <div class="d-flex ">
+                        <h1 class="color-red me-2" data-aos="fade-up">¿Por Qué</h1>
+                        <h1 class="color-blue" data-aos="fade-up">La Alianza?</h1>
+                    </div>
+
+                </div>
+                <div class="d-flex  my-5">
+                    <p class="color-gray mx-5 px-5 text-center">La alianza entre Raltech, Hey Banco y LPI Institute
+                        surge
+                        para responder
+                        a un reto estructural de las PyMEs: convertir la transofrmación digital en resultados de negocio
+                        reales y acceso a soluciones de bajo costo basadas en opensource, a través de un solo proceso,
+                        diagnóstico estratégico, ejecución tecnológica, formación especializada y acceso a
+                        financiamiento.
+                    </p>
+                </div>
+                <div class="d-flex my-5">
+                    <h3 class=" color-blue-strong mx-5 px-5 text-center">Esta alianza establece un marco sólido y
+                        confiable para que las PyMEs Adopten tecnología con claridad, acompañamiento y visión a largo
+                        plazo
+                    </h3>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center align-items-center py-5 gap-3 aos-init"
+                    data-aos="fade-up">
+                    <img src="assets/imgs/template/heybanco-logo.svg" alt="" class="mx-2 mx-md-3"
+                        style="max-width: 100%; height: auto;">
+                    <img src="assets/imgs/template/RALKTECH-logo.svg" alt="" class="mx-2 mx-md-3"
+                        style="max-width: 100%; height: auto;">
+                    <img src="assets/imgs/template/lpi-logo.svg" alt="" class="mx-2 mx-md-3"
+                        style="max-width: 100%; height: auto;">
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section>
+
+            <hr class="hr-gradient">
+            <div class="d-flex flex-wrap justify-content-center align-items-center py-5 gap-3 aos-init"
+                data-aos="fade-up">
+                <img src="assets/imgs/template/l1.svg" alt="" class="mx-2 mx-md-3"
+                    style="max-width: 100%; height: auto;">
+                <img src="assets/imgs/template/l2.svg" alt="" class="mx-2 mx-md-3"
+                    style="max-width: 100%; height: auto;">
+                <img src="assets/imgs/template/l3.svg" alt="" class="mx-2 mx-md-3"
+                    style="max-width: 100%; height: auto;">
+                <img src="assets/imgs/template/l4.svg" alt="" class="mx-2 mx-md-3"
+                    style="max-width: 100%; height: auto;">
+                <img src="assets/imgs/template/l5.svg" alt="" class="mx-2 mx-md-3"
+                    style="max-width: 100%; height: auto;">
+                <img src="assets/imgs/template/l6.svg" alt="" class="mx-2 mx-md-3"
+                    style="max-width: 100%; height: auto;">
+            </div>
+            <hr class="hr-gradient-reverse">
+
+        </section>
+        <!--Home 1 Section 3-->
+        <section class="position-relative overflow-hidden py-5" id="alliance">
+            <div class="container" data-aos="fade-up">
+                <div class="d-flex flex-column justify-content-center align-items-center my-5">
+
+                    <h3 class="heading-3xl color-blue" data-aos="fade-up">
+                        Aliados por la
+                    </h3>
+                    <h3 class="heading-3xl color-red" data-aos="fade-up">
+                        transofrmación digital
+                    </h3>
+
+                </div>
+
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <!-- Hey Banco -->
+                    <article class="partner-showcase__item">
+                        <div class="partner-showcase__logo aos-init" data-aos="fade-up">
+                            <img src="assets/imgs/template/heybanco-logo.svg" alt="Hey Banco">
+                        </div>
+
+                        <div class="partner-showcase__arrow">→</div>
+
+                        <div class="partner-showcase__description">
+                            <span class="partner-showcase__highlight">Institución
+                                financiera</span>
+                            que impulsa el crecimiento de personas y empresas mediante soluciones digitales
+                            y acceso ágil a financiamiento.
+                        </div>
+                    </article>
+
+                    <!-- Ralktech -->
+                    <article class="partner-showcase__item">
+                        <div class="partner-showcase__logo aos-init" data-aos="fade-up">
+                            <img src="assets/imgs/template/RALKTECH-logo.svg" alt="Ralktech">
+                        </div>
+
+                        <div class="partner-showcase__arrow">→</div>
+
+                        <div class="partner-showcase__description">
+                            <span class="partner-showcase__highlight">El ecosistema Ralktech</span>
+                            se especializa en transformación digital, desarrollo de software a la medida
+                            e integración de soluciones tecnológicas, que acompaña a organizaciones en el
+                            diseño e implementación de iniciativas digitales de alto impacto.
+                        </div>
+                    </article>
+
+                    <!-- Linux Professional Institute -->
+                    <article class="partner-showcase__item">
+                        <div class="partner-showcase__logo aos-init" data-aos="fade-up">
+                            <img src="assets/imgs/template/lpi-logo.svg" alt="Linux Professional Institute">
+                        </div>
+
+                        <div class="partner-showcase__arrow">→</div>
+
+                        <div class="partner-showcase__description">
+                            <span class="partner-showcase__highlight">
+                                Organización global líder en certificación profesional
+                            </span>
+                            en Linux y tecnologías Open Source, que impulsa talento calificado
+                            con estándares internacionales.
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="div-gradient-reverse-xl py-2">
+                <div class="flow-steps">
+                    <span class="flow-steps__label">Detente</span>
+
+                    <span class="flow-steps__arrow">
+                        <span class="flow-steps__arrow-icon">›</span>
+                    </span>
+
+                    <span class="flow-steps__label">Ajusta</span>
+
+                    <span class="flow-steps__arrow">
+                        <span class="flow-steps__arrow-icon">›</span>
+                    </span>
+
+                    <span class="flow-steps__label">Avanza</span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--Home 1 Section 4-->
+        <section class="position-relative overflow-hidden py-5" id="route">
+            <div class="box-project-inner">
+                <div class="container" data-aos="fade-up">
+                    <div class="d-flex flex-column justify-content-center align-items-center my-5">
+
+                        <h3 class="heading-3xl color-blue" data-aos="fade-up">
+                            Ruta por la
+                        </h3>
+                        <h3 class="heading-3xl color-red" data-aos="fade-up">
+                            transofrmación digital
+                        </h3>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center my-5 w-75 mx-auto aos-init" data-aos="fade-up">
+                <img src="assets/imgs/template/pista.svg" alt="" style="max-width: 100%; height: auto;">
+            </div>
+            <section class="process-timeline">
+
+                <article class="process-timeline__item aos-init" data-aos="fade-up">
+                    <span class="process-timeline__step process-timeline__step--red">1</span>
+                    <div class="process-timeline__content">
+                        <h3 class="process-timeline__title">Convocatoria y registro.</h3>
+                        <p class="process-timeline__text">
+                            Las empresas se integran al ecosistema mediante una convocatoria estructurada
+                            que identifica su contexto y objetivos.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="process-timeline__item aos-init" data-aos="fade-up">
+                    <span class="process-timeline__step process-timeline__step--blue">2</span>
+                    <div class="process-timeline__content">
+                        <h3 class="process-timeline__title">Evaluación financiera.</h3>
+                        <p class="process-timeline__text">
+                            Con el respaldo de Hey Banco, se evalúan esquemas de financiamiento
+                            adecuados a cada proyecto.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="process-timeline__item aos-init" data-aos="fade-up">
+                    <span class="process-timeline__step process-timeline__step--green">3</span>
+                    <div class="process-timeline__content">
+                        <h3 class="process-timeline__title">Diagnóstico de madurez digital.</h3>
+                        <p class="process-timeline__text">
+                            Se analiza el nivel de digitalización, procesos, capacidades y retos del negocio
+                            para definir un punto de partida claro.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="process-timeline__item aos-init" data-aos="fade-up">
+                    <span class="process-timeline__step process-timeline__step--yellow">4</span>
+                    <div class="process-timeline__content">
+                        <h3 class="process-timeline__title">Definición de la transformación.</h3>
+                        <p class="process-timeline__text">
+                            Se crea una hoja de ruta tecnológica alineada a la estrategia y prioridades
+                            de crecimiento de la empresa.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="process-timeline__item aos-init" data-aos="fade-up">
+                    <span class="process-timeline__step process-timeline__step--gray">5</span>
+                    <div class="process-timeline__content">
+                        <h3 class="process-timeline__title">Implementación y medición de impacto.</h3>
+                        <p class="process-timeline__text">
+                            Ralktech lidera la ejecución de las soluciones, garantizando seguimiento,
+                            adopción y resultados medibles.
+                        </p>
+                    </div>
+                </article>
+                <article class="process-timeline__item aos-init" data-aos="fade-up">
+                    <span class="process-timeline__step process-timeline__step--black">6</span>
+                    <div class="process-timeline__content">
+                        <h3 class="process-timeline__title">Formación, certificación y acompañamiento.</h3>
+                        <p class="process-timeline__text">
+                            Se fortalecen las capacidades internas mediante formación ejecutiva
+                            y acompañamiento especializado.
+                        </p>
+                    </div>
+                </article>
+                <article class="process-timeline__item process-timeline__item--center aos-init" data-aos="fade-up">
+                    <span class="process-timeline__step process-timeline__step--cyan">7</span>
+                    <div class="process-timeline__content">
+                        <h3 class="process-timeline__title">Vinculación con el ecosistema.</h3>
+                        <p class="process-timeline__text">
+                            Se fortalecen las capacidades internas mediante formación ejecutiva
+                            y acompañamiento especializado.
+                        </p>
+                    </div>
+                </article>
+
+
+
+            </section>
+
+        </section>
+
+        <!--Home 1 Section 5-->
+        <section class="position-relative bg-g py-2 m-0" id="form">
+            <div class="container aos-init" data-aos="fade-up ">
+                <div class="d-flex flex-column justify-content-center align-items-center my-5 ">
+
+                    <h3 class="heading-3xl color-white" data-aos="fade-up">
+                        Formulario de registro
+                    </h3>
+
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <section class="bg-form m-0 p-0">
+            <div class="container aos-init" data-aos="fade-up ">
+                <div class="d-flex flex-column justify-content-center align-items-center  ">
+                    <div class="formulario-container">
+                        <div class="form-group">
+                            <label>Nombre:<span class="required">*</span></label>
+                            <input type="text" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Teléfono:<span class="required">*</span></label>
+                            <input type="tel" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Correo Electrónico:<span class="required">*</span></label>
+                            <input type="email" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Empresa:</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Puesto:</label>
+                                <input type="text">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Servicio de interés:<span class="required">*</span></label>
+                            <div class="checkbox-group">
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="aliado">
+                                    <label for="aliado">Aliado tecnológico.</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="proyecto">
+                                    <label for="proyecto">Quiero un proyecto.</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="financiamiento">
+                                    <label for="financiamiento">Financiamiento.</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="capacitacion">
+                                    <label for="capacitacion">Capacitación certificada.</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn-submit">Regístrate</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <hr class="hr-gradient">
+        </section>
+
+
+        <!--Home 1 Section 6-->
+        <section class="position-relative overflow-hidden" id="ecosistem">
+            <div class="box-project-inner">
+                <div class="container" data-aos="fade-up">
+                    <div class="d-flex flex-column justify-content-center align-items-center my-5">
+
+                        <h3 class="heading-3xl color-blue" data-aos="fade-up">
+                            ¿Qué es el
+                        </h3>
+                        <h3 class="heading-3xl color-red" data-aos="fade-up">
+                            ecosistema Ralktech?
+                        </h3>
+
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center my-5 w-75 mx-auto aos-init"
+                        data-aos="fade-up">
+                        <p class="color-gray text-center">
+                            Es un modelo colaborativo diseñado para acelerar la transformación digital de la PyMEs
+                            mediante la integración de aliados, tecnología, metodologias y procesos.
+                        </p>
+
+
+                    </div>
+                    <p class="header-text">
+                        Es un modelo colaborativo diseñado para acelerar la transformación digital de la PyMEs mediante
+                        la integración de aliados, tecnología, metodologías y procesos.
+                    </p>
+
+                    <div class="two-columns">
+                        <div class="column">
+                            <h2><span class="highlight">¿Que nos hace innovadores?</span> a diferencia de los enfoques
+                                tradicionales,</h2>
+                            <p>
+                                el ecosistema articula a empresas, expertos, instituciones académicas y aliados
+                                financieros bajo un marco operativo común, buscando iniciativas que sostengan un impacto
+                                colectivo en las industrias, que respondan a objetivos reales de negocio y permita el
+                                acceso a la PyME a proyectos de alto nivel de forma ágil.
+                            </p>
+                        </div>
+
+                        <div class="column">
+                            <h2><span class="highlight">Desde el diagnóstico.</span> hasta la implementación y evolución
+                                de las soluciones,</h2>
+                            <p>
+                                el ecosistema Ralktech proporciona acompañamiento estructurado, ejecución especializada
+                                y visión de largo plazo, permitiendo a las organizaciones escalar, innovar y fortalecer
+                                su competitividad en un entorno digital en constante cambio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center my-5 w-75 mx-auto aos-init"
+                    data-aos="fade-up">
+                    <img src="assets/imgs/template/logo-ecosistema.svg" alt="" style="max-width: 50%; height: auto;">
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="d-flex flex-column justify-content-center align-items-center my-5">
+
+                    <h3 class="heading-xl color-red" data-aos="fade-up">
+                        MANTENTE PENDIENTE DE LAS PRÓXIMAS CONVOCATORIAS.
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <section>
+            <hr class="hr-gradient-reverse">
+        </section>
+        <!--Home 1 Section 7-->
+        <section class="position-relative overflow-hidden" id="contact">
+            <div class="contact-panel">
+                <!-- Header -->
+                <div class="contact-header">
+                    <div class="line"></div>
+                    <span class="contact-title">CONTACTO</span>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Content -->
+                <div class="panel-content">
+                    <!-- Image Section -->
+                    <div class="image-section">
+                        <img src="assets/imgs/template/juancarlos.svg" alt="Juan Carlos" class="profile-image">
+                        <!-- Reemplaza la URL con tu imagen: <img src="tu-imagen.jpg" alt="Juan Carlos" class="profile-image"> -->
+                    </div>
+
+                    <!-- Info Section -->
+                    <div class="info-section">
+                        <h1 class="name">Juan Carlos</h1>
+
+                        <!-- WhatsApp -->
+                        <div class="contact-item">
+                            <div class="icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">WhatsApp</span>
+                                <span class="contact-value">55 6211 0237</span>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="contact-item">
+                            <div class="icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Correo Electrónico</span>
+                                <span class="contact-value">Juan.Carlos@Ralktech.com</span>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="contact-item">
+                            <div class="icon-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Dirección</span>
+                                <span class="contact-value">Álvaro Obregón #171, Col. Roma, CDMX.</span>
+                            </div>
+                        </div>
+
+                        <!-- Button -->
+                        <button class="register-btn">Regístrate</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+    <!-- prettier-ignore -->
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="social-title">Redes Sociales</p>
+
+            <div class="social-icons">
+                <!-- Facebook -->
+                <a href="#" class="social-icon" aria-label="Facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                    </svg>
+                </a>
+
+                <!-- Twitter -->
+                <a href="#" class="social-icon" aria-label="Twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                    </svg>
+                </a>
+
+                <!-- Instagram -->
+                <a href="#" class="social-icon" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                    </svg>
+                </a>
+
+                <!-- Pinterest -->
+                <a href="#" class="social-icon" aria-label="Pinterest">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="divider"></div>
+
+            <p class="copyright">Copyright ©RalKTech 2026 Alright Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Scroll top -->
+    <div class="btn-scroll-top">
+        <svg class="progress-square svg-content" width="100%" height="100%" viewBox="0 0 40 40">
+            <path
+                d="M8 1H32C35.866 1 39 4.13401 39 8V32C39 35.866 35.866 39 32 39H8C4.13401 39 1 35.866 1 32V8C1 4.13401 4.13401 1 8 1Z" />
+        </svg>
+    </div>
+
+    <!-- Libs JS -->
+    <script src="assets/js/vendors/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/aos.js"></script>
+    <script src="assets/js/vendors/wow.min.js"></script>
+    <script src="assets/js/vendors/jquery.appear.js"></script>
+    <script src="assets/js/vendors/jquery.odometer.min.js"></script>
+    <script src="assets/js/vendors/headhesive.min.js"></script>
+    <script src="assets/js/vendors/smart-stick-nav.js"></script>
+    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendors/gsap.min.js"></script>
+    <script src="assets/js/vendors/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/vendors/ScrollTrigger.min.js"></script>
+    <!-- Theme JS -->
+    <script src="assets/js/gsap-custom.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
